@@ -35,8 +35,7 @@ export default function Register() {
     setIsSubmitting(true);
     setError('');
 
-    const externalApiUrl = 'https://162.248.100.28:3000/user'; 
-    //const externalApiUrl = 'https://api.swappable.net/user'; 
+    const externalApiUrl = 'https://api.swappable.net/user'; 
 
 
     const payload = {
